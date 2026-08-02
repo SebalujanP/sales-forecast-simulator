@@ -34,7 +34,7 @@ st.set_page_config(
 )
 
 MODEL_PATH = "models/modelo_final_true.joblib"
-DATA_PATH = "data/processed/inferencia_df_transformado.csv"
+DATA_PATH = "data/processed/inferencia_df_transformado.true.csv"
 
 FEATURE_COLS = [
     "precio_base", "es_estrella", "precio_venta", "Amazon", "Decathlon",
