@@ -2,7 +2,7 @@
 
 Simulador interactivo de ventas para noviembre 2025, construido sobre un modelo de Machine Learning entrenado con datos históricos (2021-2024) de una tienda de artículos deportivos. Permite ajustar descuentos y escenarios de competencia en tiempo real y visualizar el impacto proyectado en unidades vendidas e ingresos.
 
-🔗 **App en vivo:** _(agregar acá la URL de Streamlit Cloud una vez desplegada)_
+🔗 **App en vivo:** https://sales-forecast-simulator-8cst8e6p6vgwfzvmrywazt.streamlit.app/
 
 ## 📋 Descripción
 
