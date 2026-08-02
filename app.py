@@ -2,10 +2,10 @@
 Simulador de Ventas - Noviembre 2025
 =====================================
 App de Streamlit para simular y visualizar predicciones de ventas usando
-el modelo HistGradientBoostingRegressor entrenado (models/modelo_final.joblib).
+el modelo HistGradientBoostingRegressor entrenado (models/modelo_final_true.joblib).
 
 IMPORTANTE - features reales del modelo (versión con Black Friday/Cyber Monday/festivo,
-la de mejor performance validada: MAE 1.49 / R² 0.786 sobre 2024):
+la de mejor performance validada: MAE 1.55 / R² 0.771 sobre 2024):
 ['precio_base', 'es_estrella', 'precio_venta', 'Amazon', 'Decathlon', 'Deporvillage',
  'Año', 'dif_amazon_pct', 'dif_decathlon_pct', 'dif_deporvillage_pct',
  'es_black_friday', 'es_cyber_monday', 'es_festivo']
@@ -33,7 +33,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-MODEL_PATH = "models/modelo_final.joblib"
+MODEL_PATH = "models/modelo_final_true.joblib"
 DATA_PATH = "data/processed/inferencia_df_transformado.csv"
 
 FEATURE_COLS = [
