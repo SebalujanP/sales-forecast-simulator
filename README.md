@@ -35,7 +35,7 @@ La predicción se calcula día por día para todo noviembre 2025, con foco espec
 |---|---|---|
 | 10 features (sin señales de fecha especial) | 1.80 | 0.693 |
 | 13 features (con mes/trimestre/día del mes) | 1.87 | 0.676 |
-| **13 features (con Black Friday/Cyber Monday/festivo)** ✅ | **1.49** | **0.786** |
+| **13 features (con Black Friday/Cyber Monday/festivo)** ✅ | **1.55** | **0.771** |
 
 Agregar las señales de Black Friday/Cyber Monday/festivo mejoró notablemente la performance: sin ellas, el modelo no tenía forma de anticipar los picos de demanda de esas fechas, ya que las variables de precio y competencia por sí solas no alcanzan para explicarlos.
 
